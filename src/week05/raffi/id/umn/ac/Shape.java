@@ -10,13 +10,13 @@ public class Shape {
 	public void setColor(String color) {
 		this.color=color;
 	}
-	public String getColor(String color) {
-		return color;
+	public String getColor() {
+		return this.color;
 	}
 	public double getArea() {
 		return 0;
 	}
-	public double getParameter () {
+	public double getPerimeter () {
 		return 0;
 	}
 }
